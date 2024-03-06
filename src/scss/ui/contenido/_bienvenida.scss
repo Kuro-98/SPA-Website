@@ -1,2 +1,17 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
+
+.bienvenida {
+	text-align: center;
+	&__heading {
+		@include m.headingCursiva;
+	}
+
+	&__texto {
+		font-size: 2.6rem;
+		color: v.$gris;
+		max-width: 50rem;
+		margin: 4rem auto 0 auto;
+		line-height: 1.8;
+	}
+}
