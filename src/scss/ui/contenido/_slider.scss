@@ -1,1 +1,31 @@
 @use 'base/variables' as v;
+
+.slider {
+	position: relative;
+	overflow: hidden;
+	&__slide {
+		height: 100%;
+		flex-shrink: 0;
+		width: 100%;
+		position: relative;
+		transition-property: transform;
+	}
+
+	&__imagen {
+		width: 100%;
+	}
+
+	.swiper-button-next,
+	.swiper-button-prev {
+		color: v.$blanco;
+	}
+
+	.swiper-pagination-bullet {
+		background-color: v.$blanco;
+		opacity: 0.5;
+	}
+
+	.swiper-pagination-bullet-active {
+		background-color: v.$primario;
+	}
+}

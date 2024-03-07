@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@400;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 
@@ -56,10 +56,18 @@
         </div>
     </div>
 
-    <section class="slider">
+    <section class="slider contenedor">
         <ul class="slider__contenedor">
-            <li class="slider__slider">
-                <img src="build/img/slide_01.jpg" alt="imagen slide">
+            <li class="slider__slide">
+                <img class="slider__imagen" src="build/img/slide_01.jpg" alt="imagen slide">
+            </li>
+
+            <li class="slider__slide">
+                <img class="slider__imagen" src="build/img/slide_02.jpg" alt="imagen slide">
+            </li>
+
+            <li class="slider__slide">
+                <img class="slider__imagen" src="build/img/slide_03.jpg" alt="imagen slide">
             </li>
         </ul>
     </section>
@@ -153,7 +161,7 @@
                         <tr class="tabla__tr">
                             <td class="tabla__td">Sabado</td>
                             <td class="tabla__td">09:00</td>
-                            <td class="tabla__td">19:00</td>
+                            <td class="tabla__td">14:00</td>
                         </tr>
 
                         <tr class="tabla__tr">
@@ -231,6 +239,53 @@
             rem nostrum odio laborum?</p>
         <a class="cita__enlace" href="#">Leer más</a>
     </section>
+
+    <footer class="footer">
+        <div class="footer__grid contenedor">
+            <div class="footer__widget">
+                <h3 class="footer__heading">Nosotros</h3>
+                <p class="footer__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure culpa harum aut
+                    aperiam nam aspernatur qui</p>
+            </div>
+
+            <div class="footer__widget">
+                <h3 class="footer__heading">Horario</h3>
+                <p class="footer__texto">Lun-Vie: 9AM -7PM</p>
+                <p class="footer__texto">Sábado: 9AM - 2PM</p>
+                <p class="footer__texto">Domingo: Cerrado</p>
+            </div>
+
+            <div class="footer__widget">
+                <h3 class="footer__heading">Contacto</h3>
+                <p class="footer__texto">Av. Revolución 1818</p>
+
+                <nav class="sociales">
+                    <a class="sociales__enlace" href="https://facebook.com">
+                        <span class="sociales__accesible">Facebook</span>
+                    </a>
+                    <a class="sociales__enlace" href="https://twitter.com">
+                        <span class="sociales__accesible">Twitter</span>
+                    </a>
+                    <a class="sociales__enlace" href="https://instagram.com">
+                        <span class="sociales__accesible">Instagram</span>
+                    </a>
+                    <a class="sociales__enlace" href="https://pinterest.com">
+                        <span class="sociales__accesible">Pinterest</span>
+                    </a>
+                    <a class="sociales__enlace" href="https://youtube.com">
+                        <span class="sociales__accesible">YouTube</span>
+                    </a>
+                    <a class="sociales__enlace" href="https://tiktok.com">
+                        <span class="sociales__accesible">TikTok</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+
+        <p class="footer__copyright">Carolina Spa & Salon. Todos los derechos reservados</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
