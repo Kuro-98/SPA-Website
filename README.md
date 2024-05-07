@@ -17,6 +17,6 @@
 
 ## Instrucciones de Despliegue
 
-1. Clona este repositorio: `git clone https://github.com/tu-usuario/carolina-spa-salon.git`
+1. Clona este repositorio: `git@github.com:Kuro-98/SPA-Website.git`
 2. Abre el archivo `index.html` en tu navegador favorito.
 
